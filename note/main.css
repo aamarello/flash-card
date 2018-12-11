@@ -1,0 +1,30 @@
+.container{
+    display: grid;
+    grid-template-areas:" header"
+    " main"
+}
+.button{
+
+color: black;
+font-family: 'Permanent Marker', cursive;
+padding-top:50px;
+text-align: center;
+text-decoration: none;
+font-size: 25px;
+margin-top: 15%
+}
+.button:hover{
+    color: darkblue;
+    }
+
+.button{
+    grid-area: header;
+    grid-column-start: 1;
+
+}
+body{
+    background-image: url("Architecture-Index-Card.jpg");
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-position:center;
+}
